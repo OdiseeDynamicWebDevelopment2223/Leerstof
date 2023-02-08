@@ -118,3 +118,42 @@ const d = [0,1,2,3,4,5,6];
 for (const item of d){
 	console.log(item);
 }
+
+// Functions
+function helloWorld(){
+	console.log('hello world');
+}
+
+function helloWorldWithName(name){
+	console.log('hello '  + name);
+	return 'hello ' + name;
+}
+
+// SELF invoking function
+// best om steeds al je code in dit soort functie te steken
+// functions moeten hier niet in staan
+(function(){
+	console.log('test');
+	let importantVariableFromOtherFileIsNotChanged =5 ;
+
+	helloWorld();
+	console.log(helloWorldWithName('jens'));
+})();
+  
+let importantVariableFromOtherFileIsChanged =5 ;
+
+// OEFENING 3
+
+let tekst = 'dit';
+
+morsecode = toMorse(tekst);
+
+originele_tekst = fromMorse(morsecode);
+
+// je hoopt dat originele_tekst === tekst
+
+// om het probleem met de tabs op te lossen
+// onderaan het scherm in de balk zie je rechts spaces staan
+// klik daarop en dan krijg je bovenaan een popup
+// klik op indent using tabs
+// daarna op 4
