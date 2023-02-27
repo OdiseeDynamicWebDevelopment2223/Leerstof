@@ -1,0 +1,103 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>getElementbyId</h1>
+
+    <p id="intro">Om een element met een specifieke id te selecteren.</p>
+    <label for="leeftijd"> Leeftijd:
+        <input id="leeftijd" type="number" value="47">
+    </label>
+
+    <h1 class="benadrukt">querySelector()</h1>
+    <p>Selecteer het eerste element dat voldoet aan een css selector.</p>
+
+    <ul>
+        <li>eerste</li>
+        <li class="benadrukt">tweede</li>
+        <li>derde</li>
+    </ul>
+
+    <h1>Events</h1>
+
+    <button id="clickFunctionButton" class="btn">click function</button>
+    <button id="clickAnonymousFunctionButton" class="btn">click anonymous function</button>
+    <button id="clickArrowFunctionButton" class="btn">click arrow function</button>
+
+    <h1>UseCapture</h1>
+
+    <div id="outer-div">
+        <div id="inner-div">
+            <button class="btn" id="button">test</button>
+        </div>
+    </div>
+
+    <h1>RemoveEventListener</h1>
+
+    <button class="btn" id="click-btn">click</button>
+    <button class="btn" id="add-btn">add Event</button>
+    <button class="btn" id="remove-btn">remove Event</button>
+
+    <h1>innerHTML</h1>
+
+    <p>Om de (HTML) inhoud van een element op te vragen of aan te passen</p>
+
+    <p id="een-id">Een niets-vermoedend element</p>
+    <p>Een ander niets-vermoedend element</p>
+
+    <button id="knop" class="btn">Hit me!</button>
+
+    <h1>innerText</h1>
+
+    <p>InnerText zal enkel de <span class="benadrukt">menselijk leesbare tekst</span> ophalen of aanpassen.</p>
+
+    <p id="een-id2">Je hebt nog niet op die knop gedrukt</p>
+    <p id="ander-id">Je hebt al <span id='aantal' class="benadrukt">0</span> keer op knop twee gedrukt</p>
+
+    <button id="knop1" class="btn">Hit me!</button>
+    <button id="knop2" class="btn">Hit me too!</button>
+
+    <h1>classList</h1>
+
+    <p>Met de classList kan je css klassen toevoegen of verwijderen.</p>
+
+    <p id="een-id3">Een alinea met wat tekst</p>
+    <p id="ander-id2">Nog een alinea met wat tekst</p>
+    <p id="contains"></p>
+
+    <button id="knopAdd" class="btn">Add</button>
+    <button id="knopRemove" class="btn">Remove</button>
+    <button id="knopToggle" class="btn">Toggle</button>
+    <button id="knopContains" class="btn">Contains?</button>
+
+    <h1>Werken met attributen</h1>
+
+    <p id="een-id4"  data-nummer="12">Een alinea met wat tekst en een attribuut "data-nummer", initieel met waarde "12".</p>
+
+    <p id="output"></p>
+
+    <button id="knop-has" class="btn">hasAttribute("data-nummer")</button>
+    <button id="knop-get" class="btn">getAttribute("data-nummer")</button>
+    <button id="knop-set" class="btn">setAttribute("data-nummer", "24")</button>
+    <button id="knop-remove" class="btn">removeAttribute("data-nummer")</button>
+
+    
+    <h1>createElement, append, prepend en remove</h1>
+
+    <p>Met createElement kan je een element aanmaken. Dat element zit nog niet in het DOM. Met append en prepend kan je elementen toevoegen aan het DOM.</p>
+
+    <p>Klik op een paragraaf om deze te verwijderen</p>
+
+    <button id="knop-append" class="btn">Append</button>
+    <button id="knop-prepend" class="btn">Prepend</button>
+
+    <div>
+    <div id="prullenbak" class="benadrukt"></div>
+    <div id="output2"></div>
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+</html>

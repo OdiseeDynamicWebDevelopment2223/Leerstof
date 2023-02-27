@@ -144,11 +144,11 @@ let importantVariableFromOtherFileIsChanged =5 ;
 
 // OEFENING 3
 
-let tekst = 'dit';
+//let tekst = 'dit';
 
-morsecode = toMorse(tekst);
+//morsecode = toMorse(tekst);
 
-originele_tekst = fromMorse(morsecode);
+//originele_tekst = fromMorse(morsecode);
 
 // je hoopt dat originele_tekst === tekst
 
@@ -157,3 +157,7 @@ originele_tekst = fromMorse(morsecode);
 // klik daarop en dan krijg je bovenaan een popup
 // klik op indent using tabs
 // daarna op 4
+
+for(let i in 'Hello World'){
+	console.log(i);
+}
