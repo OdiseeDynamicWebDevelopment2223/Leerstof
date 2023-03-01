@@ -46,3 +46,19 @@ input {
 .btn {
   margin-right: 1em;
 }
+
+form#loginForm input:optional {
+  background-color: lightblue;
+}
+
+form#loginForm input:required {
+  background-color: yellow;
+}
+
+form#loginForm input:valid {
+  background-color: lightgreen;
+}
+
+form#loginForm input:invalid {
+  background-color: pink;
+}
