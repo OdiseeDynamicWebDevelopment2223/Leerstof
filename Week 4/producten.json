@@ -1,0 +1,15 @@
+{
+    "producten": [
+        {
+            "id": 0,
+            "naam": "product 1",
+            "beschrijving": "lorem ipsum...",
+            "prijs": 100
+        },{
+            "id": 1,
+            "naam": "product 2",
+            "beschrijving": "lorem ipsum test...",
+            "prijs": 200
+        }
+    ]
+}
