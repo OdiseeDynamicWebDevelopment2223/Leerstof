@@ -1,0 +1,41 @@
+{
+    "0989080821" : {
+        "naam": "product1",
+        "categorieen": ["cat1"]
+    }, 
+    "0989080822" : {
+        "naam": "product2",
+        "categorieen": ["cat1"]
+    }, 
+    "0989080823" : {
+        "naam": "product2",
+        "categorieen": ["cat2"]
+    }, 
+    "0989080824" : {
+        "naam": "product2",
+        "categorieen": ["cat2"]
+    }
+}
+
+{
+    "cat1": [
+        {
+            "id": 0989080821,
+            "naam": "product1"
+        },
+        {
+            "id": 0989080822,
+            "naam": "product2"
+        }
+    ],
+    "cat2": [
+        {
+            "id": 0989080823,
+            "naam": "product3"
+        },
+        {
+            "id": 0989080824,
+            "naam": "product4"
+        }
+    ]
+}
